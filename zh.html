@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全球排行榜 - WorldTopRank</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="发现各行各业的全球排行榜。通过权威排名保持信息更新，帮助您做出明智决策。">
+    <meta name="keywords" content="全球排行榜, 行业排行榜, 顶级排行榜, 权威排行榜, AI 排名, 创业公司列表, AI">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags for Social Media Sharing -->
+    <meta property="og:title" content="全球排行榜 - WorldTopRank">
+    <meta property="og:description" content="发现各行各业的全球排行榜。">
+    <meta property="og:image" content="https://www.worldtoprank.com/images/og-image.png">
+    <meta property="og:url" content="https://www.worldtoprank.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Hreflang Tags for Multi-language Support -->
+    <link rel="alternate" href="https://www.worldtoprank.com/ar/" hreflang="ar" />
+    <link rel="alternate" href="https://www.worldtoprank.com" hreflang="en" />
+    <link rel="alternate" href="https://www.worldtoprank.com/es/" hreflang="es" />
+    <link rel="alternate" href="https://www.worldtoprank.com/fr/" hreflang="fr" />
+    <link rel="alternate" href="https://www.worldtoprank.com/ja/" hreflang="ja" />
+    <link rel="alternate" href="https://www.worldtoprank.com/pt/" hreflang="pt" />
+    <link rel="alternate" href="https://www.worldtoprank.com/zh/" hreflang="zh" />
+    
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="https://www.worldtoprank.com/" />
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            background-image: url('background.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+        }
+        .header {
+            width: 100%;
+            color: rgb(0, 0, 0);
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 3em;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            width: 80%;
+            max-width: 1200px;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .single-row-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 80%;
+            max-width: 1200px;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 20px; 
+        }
+        .category {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .category h2 {
+            font-size: 1.2em;
+            margin-top: 0;
+            color: #333;
+        }
+        .category ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .category ul li {
+            margin: 10px 0;
+        }
+        .category ul li a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .category ul li a:hover {
+            text-decoration: underline;
+        }
+        .logo {
+            width: 7%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>World TOP Rank</h1>
+    </div>
+    <div class="language-switcher">
+        <a href="ar.html">العربية</a>
+        <a href="index.html">English</a>
+        <a href="es.html">Español</a>
+        <a href="fr.html">française</a>
+        <a href="ja.html">Japanese</a>
+        <a href="pt.html">Portuguese</a>
+        <a href="zh.html">中文</a>
+      </div>
+    <div class="container">
+        <div class="category">
+            <h2>教育</h2>
+            <ul>
+                <li>
+                    <img src="https://favicon.im/www.topuniversities.com" alt="www.topuniversities.com favicon"  class="logo"  />
+                    <a href="https://www.topuniversities.com/university-rankings/world-university-rankings" target="_blank" id="animated-link">QS世界大学排名</a></li>
+                    <li>
+                        <img src="https://favicon.im/www.timeshighereducation.com" alt="www.timeshighereducation.com favicon" class="logo" />
+                        <a href="https://www.timeshighereducation.com/world-university-rankings" target="_blank">泰晤士高等教育世界大学排名</a></li>
+                        <li>
+                            <img src="https://favicon.im/www.shanghairanking.com" alt="www.shanghairanking.com favicon" class="logo"/>
+                            <a href="http://www.shanghairanking.com/rankings/arwu/2023" target="_blank">软科世界大学学术排名（ARWU）</a></li>
+                            <li>
+                                <img src="https://favicon.im/www.cwur.org" alt="www.cwur.org favicon" class="logo"/>
+                                <a href="https://cwur.org" target="_blank">CWUR世界大学排名</a></li>
+                            </ul>
+                        </div>
+                        <div class="category">
+                            <h2>人口</h2>
+                            <ul>
+                                <li>
+                                    <img src="https://favicon.im/en.wikipedia.org" alt="en.wikipedia.org favicon" class="logo"  />
+                                    <a href="https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population" target="_blank">wiki百科世界人口排名</a>
+                                </li>
+                                <li>
+                                    <img src="https://favicon.im/www.worldbank.org" alt="worldbank.org favicon" class="logo" />
+                                    <a href="https://data.worldbank.org/indicator/SP.POP.TOTL" target="_blank">世界银行人口排行</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        
+                        <div class="category">
+                            <h2>经济</h2>
+                            <ul>
+                                <li>
+                                    <img src="https://favicon.im/www.macromicro.me" alt="www.macromicro.me favicon" class="logo" />
+                                    <a href="https://www.macromicro.me/cross-country-database/government-gross-debt-percent-of-gdp" target="_blank">MacroMicro政府負債(GDP佔比)</a></li> 
+                                </ul>
+                            </div>
+                            <div class="category">
+                                <h2>金融</h2>
+                                <ul>
+                                    <li>
+                                        <img src="https://favicon.im/www.bloomberg.com" alt="bloomberg.com favicon" class="logo" />
+                                        <a href="https://www.bloomberg.com/billionaires/" target="_blank">彭博亿万富翁指数</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.forbes.com" alt="forbes.com favicon" class="logo" />
+                                        <a href="https://www.forbes.com/real-time-billionaires" target="_blank">福布斯亿万富翁排行榜</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.thebanker.com" alt="thebanker.com favicon" class="logo" />
+                                        <a href="https://www.thebanker.com/Top-1000-World-Banks" target="_blank">银行家杂志全球1000强银行</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="category">
+                                <h2>创业公司</h2>
+                                <ul>
+                                    <li>
+                                        <img src="https://favicon.im/pitchbook.com" alt="pitchbook.com favicon" class="logo" />
+                                        <a href="https://pitchbook.com/news/articles/unicorn-startups-list-trends" target="_blank">PitchBook独角兽公司榜单</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.ycombinator.com" alt="ycombinator.com favicon" class="logo" />
+                                        <a href="https://www.ycombinator.com/topcompanies" target="_blank">YCombinator孵化和投资公司榜单</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.fastcompany.com" alt="fastcompany.com favicon" class="logo" />
+                                        <a href="https://www.fastcompany.com/most-innovative-companies/list" target="_blank">FastCompany年度最具创新公司50强榜单</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.cbinsights.com" alt="cbinsights.com favicon" class="logo" />
+                                        <a href="https://www.cbinsights.com/research-unicorn-companies" target="_blank">CBinsights独角兽公司榜单</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="category">
+                                <h2>科技</h2>
+                                <ul>
+                                    <li>
+                                        <img src="https://favicon.im/www.forbes.com" alt="forbes.com favicon" class="logo" />
+                                        <a href="https://www.forbes.com/top-digital-companies/list/#tab:rank" target="_blank">福布斯全球100强数字化公司</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.top500.org" alt="top500.org favicon" class="logo" />
+                                        <a href="https://www.top500.org/lists/top500/" target="_blank">Top500超级计算机网站</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.technologyreview.com" alt="technologyreview.com favicon" class="logo" />
+                                        <a href="http://technologyreview.com/lists/innovators-under-35" target="_blank">MIT35岁以下创新者榜单</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="category">
+                                <h2>AI</h2>
+                                <ul>
+                                    <li>
+                                        <img src="https://favicon.im/www.forbes.com" alt="forbes.com favicon" class="logo" />
+                                        <a href="https://www.forbes.com/lists/ai50/" target="_blank">福布斯AI50</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/aiindex.stanford.edu" alt="stanford.edu favicon" class="logo" />
+                                        <a href="https://aiindex.stanford.edu/" target="_blank">斯坦福AI指数</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/kraneshares.com" alt="kraneshares.com favicon" class="logo" />
+                                        <a href="https://kraneshares.com/agix/" target="_blank">拾象AGI指数</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.toolify.ai" alt="toolify.ai favicon" class="logo" />
+                                        <a href="https://www.toolify.ai/zh/Best-AI-Tools-revenue" target="_blank">Toolify发布的AI收入榜</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/time.com" alt="time.com favicon" class="logo" />
+                                        <a href="https://time.com/collection/time100-ai/" target="_blank">时代周刊AI100位最具影响力人物</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="category">
+                                <h2>旅游</h2>
+                                <ul>
+                                    <li>
+                                        <img src="https://favicon.im/www.tripadvisor.com" alt="tripadvisor.com favicon" class="logo" />
+                                        <a href="https://www.tripadvisor.com/TravelersChoice" target="_blank">TripAdvisor旅行者之选奖</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.worldtravelawards.com" alt="worldtravelawards.com favicon" class="logo" />
+                                        <a href="https://www.worldtravelawards.com/" target="_blank">世界旅游大奖</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.cntraveler.com" alt="cntraveler.com favicon" class="logo" />
+                                        <a href="https://www.cntraveler.com/the-bests/readers-choice-awards" target="_blank">康泰纳仕旅行者读者选择奖</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.travelandleisure.com" alt="travelandleisure.com favicon" class="logo" />
+                                        <a href="https://www.travelandleisure.com/worlds-best" target="_blank">Travel + Leisure世界最佳奖</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.lonelyplanet.com" alt="lonelyplanet.com favicon" class="logo" />
+                                        <a href="https://www.lonelyplanet.com/best-in-travel" target="_blank">孤独星球旅游年度最佳目的地</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="category">
+                                <h2>健康</h2>
+                                <ul>
+                                    <li>
+                                        <img src="https://favicon.im/health.usnews.com" alt="usnews.com favicon" class="logo" />
+                                        <a href="https://health.usnews.com/best-hospitals" target="_blank">USNews美国最佳医院</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.healthgrades.com" alt="healthgrades.com favicon" class="logo" />
+                                        <a href="https://www.healthgrades.com/quality/americas-best-hospitals" target="_blank">Healthgrades美国250家最佳医院</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.castleconnolly.com" alt="castleconnolly.com favicon" class="logo" />
+                                        <a href="https://www.castleconnolly.com/top-doctors" target="_blank">Castle Connolly评选美国顶级医生</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.mayoclinic.org" alt="mayoclinic.org favicon" class="logo" />
+                                        <a href="https://www.mayoclinic.org/about-mayo-clinic/quality/rankings" target="_blank">梅奥诊所排名</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="category">
+                                <h2>体育</h2>
+                                <ul>
+                                    <li>
+                                        <img src="https://favicon.im/www.fifa.com" alt="fifa.com favicon" class="logo" />
+                                        <a href="https://www.fifa.com/fifa-world-ranking" target="_blank">FIFA世界排名</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.atptour.com" alt="atptour.com favicon" class="logo" />
+                                        <a href="https://www.atptour.com/en/rankings/singles" target="_blank">ATP世界网球运动员排名</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.sportspromedia.com" alt="sportspromedia.com favicon" class="logo" />
+                                        <a href="https://www.sportspromedia.com/most-marketable" target="_blank">SportsPro最具市场价值运动员</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="category">
+                                <h2>娱乐</h2>
+                                <ul>
+                                    <li>
+                                        <img src="https://favicon.im/www.nytimes.com" alt="nytimes.com favicon" class="logo" />
+                                        <a href="https://www.nytimes.com/books/best-sellers/" target="_blank">NYTimes最畅销书籍榜单</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.billboard.com" alt="billboard.com favicon" class="logo" />
+                                        <a href="https://www.billboard.com/charts/hot-100" target="_blank">Billboard百强单曲榜</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.imdb.com" alt="imdb.com favicon" class="logo" />
+                                        <a href="https://www.imdb.com/chart/top" target="_blank">IMDB前250名</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.boxofficemojo.com" alt="boxofficemojo.com favicon" class="logo" />
+                                        <a href="https://www.boxofficemojo.com/chart/ww_top_lifetime_gross/" target="_blank">Box Office Mojo全球票房最高</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="category">
+                                <h2>商业</h2>
+                                <ul>
+                                    <li>
+                                        <img src="https://favicon.im/fortune.com" alt="fortune.com favicon" class="logo" />
+                                        <a href="https://fortune.com/global500/" target="_blank">财富全球500强</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.forbes.com" alt="forbes.com favicon" class="logo" />
+                                        <a href="https://www.forbes.com/global2000/" target="_blank">福布斯全球2000强</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.inc.com" alt="inc.com favicon" class="logo" />
+                                        <a href="https://www.inc.com/inc5000" target="_blank">Inc. 美国私营5000强</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www2.deloitte.com" alt="deloitte.com favicon" class="logo" />
+                                        <a href="https://www2.deloitte.com/us/en/pages/technology-media-and-telecommunications/articles/fast500-winners.html" target="_blank">德勤Fast500强</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.glassdoor.com" alt="glassdoor.com favicon" class="logo" />
+                                        <a href="https://www.glassdoor.com/Award/Best-Places-to-Work-LST_KQ0,19.htm" target="_blank">Glassdoor美国最佳工作场所</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="category">
+                                <h2>环境</h2>
+                                <ul>
+                                    <li>
+                                        <img src="https://favicon.im/epi.yale.edu" alt="yale.edu favicon" class="logo" />
+                                        <a href="https://epi.yale.edu/" target="_blank">耶鲁大学环境绩效指数</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/www.corporateknights.com" alt="corporateknights.com favicon" class="logo" />
+                                        <a href="https://www.corporateknights.com/rankings/global-100/" target="_blank">全球100家最可持续发展的公司</a>
+                                    </li>
+                                    <li>
+                                        <img src="https://favicon.im/notboringcapital.notion.site" alt="notboringcapital.notion.site favicon" class="logo" />
+                                        <a href="https://notboringcapital.notion.site/22158b1a0edc43b9824d5029c4301637?v=c5c84dc585b041898949de2f6c93d113" target="_blank">全球核能公司榜单</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="single-row-container">
+                            <h2>榜单入选标准:</h2>
+                            <h>&#9989 更新频率：榜单应定期更新，以反映最新的数据和趋势</h>
+                            <h>&#9989 数据来源：榜单应基于可靠和权威的数据来源，确保准确性和公正性</h>
+                            <h>&#9989 覆盖范围：榜单应具有广泛的覆盖范围，涵盖全球或主要区域的相关领域</h>
+                            <h>&#9989 透明度：榜单的评选标准和方法应公开透明，便于用户了解排名依据</h>
+                            <h>&#9989 历史数据：提供历史数据访问功能</h>
+                            <h>&#9989 公开访问：榜单网站必须公开可访问，且是榜单主入口</h>                       
+                        </div>
+                        <div class="single-row-container">
+                            <h2>未来路线图:</h2>
+                            <h> 	&#8987 引入AI Agent帮助自行收集每年入口链接变化的榜单,比如：MIT 10 Breakthrough Technologies</h>  
+                            <h> 	&#8987 引入投票添加榜单功能，前提是满足上述标准</h>                         
+                        </div>
+                        <div class="single-row-container">
+                            <h2>声明:</h2>
+                            <h>只作收集查阅榜单之用，请自行二次验证，如上当受骗，概不负责</h>                           
+                        </div>
+                    </body>
+                    </html>
+                    
