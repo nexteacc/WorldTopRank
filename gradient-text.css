@@ -1,0 +1,30 @@
+.gradient-text-container {
+    width: 80%; /* 或者根据需要调整 */
+    max-width: 1200px;
+    text-align: center; /* 文字居中 */
+    margin-top: 40px; /* 添加顶部间距 */
+    padding: 20px;
+    /* 可以添加 position: relative; 等根据需要调整 */
+}
+
+.gradient-text {
+    font-size: 8vw; /* 使用视口宽度单位，使其随屏幕大小调整，可以调大 */
+    font-weight: bold; /* 加粗 */
+    font-family: Arial, Helvetica, sans-serif; /* 使用粗的无衬线字体 */
+    text-transform: uppercase; /* 转换为大写 */
+    /* 核心效果：背景渐变 */
+    background: linear-gradient(to bottom, #f0f0f0 60%, #a0a0a0 95%); /* 从浅灰过渡到深灰，调整百分比控制过渡位置 */
+    -webkit-background-clip: text; /* 兼容 Webkit */
+    background-clip: text;
+    color: transparent; /* 使文字颜色透明，显示背景渐变 */
+    /* 添加柔和的底部阴影 */
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25); /* X偏移, Y偏移, 模糊半径, 颜色 */
+    margin: 0; /* 移除 h1 的默认 margin */
+}
+
+/* 响应式调整字体大小 */
+@media (max-width: 768px) {
+    .gradient-text {
+        font-size: 12vw; /* 在小屏幕上增大相对大小 */
+    }
+}
